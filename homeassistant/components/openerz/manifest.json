@@ -2,6 +2,7 @@
   "domain": "openerz",
   "name": "Open ERZ",
   "codeowners": ["@misialq"],
+  "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/openerz",
   "iot_class": "cloud_polling",
   "loggers": ["openerz_api"],

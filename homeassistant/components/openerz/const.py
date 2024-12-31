@@ -1,0 +1,23 @@
+"""Constants for the OpenERZ integration."""
+
+DOMAIN = "openerz"
+CONF_WASTE_AREA = "waste area"
+CONF_WASTE_REGION = "waste region"
+CONF_WASTE_TYPES = "waste types"
+
+DEFAULT_NAME = "Open ERZ"
+UPDATE_LISTENER = "update_listener"
+
+TYPE_WASTE_BULKY_GOODS = "bulky_goods"
+TYPE_WASTE_CARDBOARD = "cardboard"
+TYPE_WASTE_CARGOTRAM = "cargotram"
+TYPE_WASTE_CHIPPING = "chipping_service"
+TYPE_WASTE_ETRAM = "etram"
+TYPE_WASTE_INCOMBUSTIBLE = "incombustibles"
+TYPE_WASTE_METAL = "metal"
+TYPE_WASTE_OEKIBUS = "oekibus"
+TYPE_WASTE_ORGANIC = "organic"
+TYPE_WASTE_PAPER = "paper"
+TYPE_WASTE_SPECIAL = "special"
+TYPE_WASTE_TEXTILE = "textile"
+TYPE_WASTE_WASTE = "waste"

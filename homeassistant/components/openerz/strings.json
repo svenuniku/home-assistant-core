@@ -1,0 +1,72 @@
+{
+  "entity": {
+    "sensor": {
+      "bulky_goods": {
+        "name": "Bulky Goods"
+      },
+      "cardboard": {
+        "name": "Cardboard"
+      },
+      "cargotram": {
+        "name": "CargoTram"
+      },
+      "chipping_service": {
+        "name": "Chipping service"
+      },
+      "etram": {
+        "name": "eTram"
+      },
+      "incombustibles": {
+        "name": "Incombustibles"
+      },
+      "metal": {
+        "name": "Metal"
+      },
+      "oekibus": {
+        "name": "Ökibus"
+      },
+      "organic": {
+        "name": "Organic"
+      },
+      "paper": {
+        "name": "Paper"
+      },
+      "special": {
+        "name": "Special"
+      },
+      "textile": {
+        "name": "Textile"
+      },
+      "waste": {
+        "name": "Waste"
+      }
+    }
+  },
+  "config": {
+      "flow_title": "{name} {region} {area}",
+    "step": {
+      "user": {
+        "data": {
+          "waste region": "Region"
+        }
+      },
+      "area": {
+        "data": {
+          "waste area": "Area"
+        }
+      },
+      "types": {
+        "data": {
+          "waste types": "Types"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}

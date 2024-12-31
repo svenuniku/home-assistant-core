@@ -1,0 +1,45 @@
+{
+  "entity": {
+    "sensor": {
+      "bulky_goods": {
+        "default": "mdi:wardrobe-outline"
+      },
+      "cardboard": {
+        "default": "mdi:package-variant-closed"
+      },
+      "cargotram": {
+        "default": "mdi:tram"
+      },
+      "chipping_service": {
+        "default": "mdi:grain"
+      },
+      "etram": {
+        "default": "mdi:tram-side"
+      },
+      "incombustibles": {
+        "default": "mdi:alpha-i-box"
+      },
+      "metal": {
+        "default": "mdi:alpha-m-box"
+      },
+      "oekibus": {
+        "default": "mdi:bus"
+      },
+      "organic": {
+        "default": "mdi:leaf-circle-outline"
+      },
+      "paper": {
+        "default": "mdi:newspaper-variant-multiple-outline"
+      },
+      "special": {
+        "default": "mdi:star-box"
+      },
+      "textile": {
+        "default": "mdi:tshirt-crew-outline"
+      },
+      "waste": {
+        "default": "mdi:trash-can-outline"
+      }
+    }
+  }
+}
